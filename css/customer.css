@@ -1,10 +1,6 @@
 /* #region Global */
 body {
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #22343d;
-    background-color: #fff;
 }
 
 h1,
@@ -16,6 +12,28 @@ h6,
 p {
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #22343d;
+    line-height: 1.62;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #22343d;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
 }
 
 a {
@@ -41,7 +59,6 @@ button {
     cursor: pointer;
     border: none;
     padding: 0;
-    color: currentColor;
 }
 
 input,
@@ -69,13 +86,17 @@ textarea {
 }
 
 .container {
-    width: 1150px;
-    padding: 0 20px;
+    max-width: 320px;
+    padding: 0 5px;
     margin: 0 auto;
 }
 
-.section {
-    padding: 25px 0;
+section {
+    padding: 50px 0;
+}
+
+footer {
+    padding: 50px 0;
 }
 
 /* #endregion */
